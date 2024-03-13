@@ -1,0 +1,53 @@
+footer {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+    margin-top: 6rem;
+    font-family: 'Poppins';
+}
+
+.footerInfo {
+    display: flex;
+    flex-direction: column; 
+}
+
+.logoBox {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.logoBox span {
+    color: #39DB4A;
+    font-weight: 700;
+}
+
+.paraBox {
+    color: #555;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150.523%;
+    margin: 1rem 0;
+    /* 36.125px */
+}
+.footerLinks{
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+.headingfooter{
+    font-size: 26px;
+    font-weight: 600;
+}
+.links li{
+    color: #555; 
+    list-style: none;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 1rem 0;
+    cursor: pointer;
+}
